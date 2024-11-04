@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middy Train Time</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Middy Train Time</h1>
+        
+        <label for="date-input">Enter the date and time you want:</label>
+        <input type="datetime-local" id="date-input">
+        
+        <label for="expansion-select">Select expansion:</label>
+        <select id="expansion-select">
+            <option value="shb">shb</option>
+            <option value="ew">ew</option>
+            <option value="dt">dt</option>
+        </select>
+        
+        <button id="generate-button">Generate timestamp</button>
+        <p id="result"></p>
+        <button id="copy-button">Copy to Clipboard</button>
+        
+        <footer>Developed by Linth</footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
